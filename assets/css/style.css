@@ -4,6 +4,7 @@
 @import './hero.css';
 @import './popular.css';
 @import './feedback.css';
+@import './feature.css';
 
 * {
     /* make size always right */
