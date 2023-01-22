@@ -1,0 +1,14 @@
+* {
+    /* make size always right */
+    box-sizing: border-box;
+}
+
+html {
+    /* set 1 rem = 10px */
+    font-size: 62.5%;
+}
+
+body {
+    /* set font-size's web basic is 16px */
+    font-size: 1.6rem;
+}
