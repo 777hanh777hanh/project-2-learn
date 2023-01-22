@@ -1,6 +1,16 @@
+@import './../plugins/reset.css';
+@import './header.css';
+
 * {
     /* make size always right */
     box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --primary-color: #171100;
+    --secondary-color: #ffb900;
+    --desc-color: #5f5b53;
 }
 
 html {
@@ -11,4 +21,28 @@ html {
 body {
     /* set font-size's web basic is 16px */
     font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 600;
+    min-width: 118px;
+    border-radius: 25px;
+    font-size: 1.6rem;
+    line-height: 50px;
+    text-align: center;
+    color: #ffffff;
+    background: var(--primary-color);
 }
