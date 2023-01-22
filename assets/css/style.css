@@ -3,6 +3,7 @@
 @import './header.css';
 @import './hero.css';
 @import './popular.css';
+@import './feedback.css';
 
 * {
     /* make size always right */
@@ -14,6 +15,8 @@
     --primary-color: #171100;
     --secondary-color: #ffb900;
     --desc-color: #5f5b53;
+    --background-color: #fffcf4;
+    --sub-background-color: #2e2100;
 }
 
 html {
