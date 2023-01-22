@@ -29,7 +29,6 @@
     flex-wrap: nowrap;
     gap: 30px;
     overflow: hidden;
-    background: #000;
 }
 
 .blog .blog-list .blog-item {

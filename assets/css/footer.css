@@ -1,0 +1,95 @@
+/* Footer */
+
+.footer {
+    background: var(--sub-background-color);
+}
+
+.footer .body {
+    padding: 96px 0 0;
+}
+
+.footer .row {
+    display: flex;
+    gap: 145px;
+    justify-content: space-between;
+}
+
+.footer .row .footer-introduce {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 25%;
+}
+
+.footer .footer-introduce .slogan {
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #bfbcb2;
+}
+
+.footer .footer-introduce .socials {
+    display: flex;
+}
+
+.footer .footer-introduce .social {
+    padding: 0 9px;
+}
+
+.footer .footer-introduce .social:first-child {
+    margin-left: -9px;
+}
+
+.footer .footer-introduce .social:hover {
+    opacity: 0.9;
+}
+
+.footer .footer-info .row {
+    display: flex;
+    width: 100%;
+    gap: 130px;
+    justify-content: flex-end;
+}
+
+.footer .footer-info .heading {
+    color: #fff;
+}
+
+.footer .footer-info .separate {
+    margin-top: 14px;
+    width: 130px;
+    height: 1px;
+    background: #59554b;
+}
+
+.footer .footer-info .list {
+    margin-top: 16px;
+}
+
+.footer .footer-info .item a {
+    display: inline-block;
+    margin-top: 12px;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #bfbcb2;
+    white-space: nowrap;
+}
+
+.footer-info .column:last-child a {
+    white-space: normal;
+}
+
+.footer .footer-info .item b {
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+.footer .copyright {
+    margin-top: 38px;
+    padding: 28px;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    text-align: center;
+    color: #807d74;
+    border-top: 1px solid #59554b;
+}

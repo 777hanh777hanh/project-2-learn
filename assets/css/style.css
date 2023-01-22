@@ -6,6 +6,7 @@
 @import './feedback.css';
 @import './feature.css';
 @import './blog.css';
+@import './footer.css';
 
 * {
     /* make size always right */
@@ -75,6 +76,12 @@ a {
 .heading.lv2 {
     font-size: 3.8rem;
     line-height: 1.26;
+}
+
+.heading.lv3 {
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.75;
 }
 
 .desc {
