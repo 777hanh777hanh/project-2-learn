@@ -1,0 +1,121 @@
+/* Blog */
+
+.blog {
+    margin-top: 135px;
+    padding: 96px 0;
+    background: var(--background-color);
+}
+
+.blog .blog-top {
+    margin: 0 auto;
+    text-align: center;
+    width: 38.29%;
+}
+
+.blog .blog-top .heading {
+    color: #130606;
+}
+
+.blog .blog-top .desc {
+    margin-top: 16px;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #696262;
+}
+
+.blog .blog-list {
+    margin-top: 55px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 30px;
+    overflow: hidden;
+    background: #000;
+}
+
+.blog .blog-list .blog-item {
+    --index-group: 1;
+    width: calc(33.33% - 20px);
+    border-radius: 16px;
+    background: #fff;
+    flex-shrink: 0;
+    transition: all ease 0.4s;
+    transform: translateX(calc(-1 * 300% * var(--index-group) - (30px * var(--index-group) * 3)));
+}
+
+.blog .blog-list .blog-item:hover {
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.05);
+}
+
+.blog .blog-item .thumb {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 16px 16px 0 0;
+}
+
+.blog .blog-item .info {
+    margin: 20px 20px 28px;
+}
+
+.blog-item .info .date {
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #5f5b53;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    padding-bottom: 12px;
+}
+
+.blog-item .info .date::before {
+    content: '';
+    position: relative;
+    left: 0;
+    margin-right: 4px;
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--secondary-color);
+}
+
+.blog-item .info .date::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: -27px;
+    height: 1px;
+    display: block;
+    background: #e2dfda;
+    border-radius: 999px;
+}
+
+.blog-item .info .title {
+    margin-top: 12px;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: var(--primary-color);
+}
+
+.blog-item .info .title {
+    display: inline-block;
+}
+
+.blog-item .info .btn {
+    margin-top: 12px;
+    font-size: 1.4rem;
+}
+
+.blog-item .info .btn:hover {
+    background-color: var(--secondary-color);
+}
+
+.blog .dots {
+    margin: 38px auto 0;
+    justify-content: center;
+}
+
+.blog .dot {
+    background: #5f5b53;
+}

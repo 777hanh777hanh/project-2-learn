@@ -45,23 +45,6 @@
     color: #bfbcb3;
 }
 
-.feedback-item .dots {
-    display: flex;
-    margin-top: 28px;
-    gap: 6px;
-}
-
-.feedback-item .dots .dot {
-    width: 6px;
-    height: 6px;
-    background: #634700;
-    border-radius: 50%;
-}
-
-.feedback-item .dot.dot--active {
-    background-color: var(--secondary-color);
-}
-
 .feedback-item .feedback-content {
     width: 66%;
     margin-left: auto;

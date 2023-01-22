@@ -5,6 +5,7 @@
 @import './popular.css';
 @import './feedback.css';
 @import './feature.css';
+@import './blog.css';
 
 * {
     /* make size always right */
@@ -80,6 +81,24 @@ a {
     font-size: 1.8rem;
     line-height: 1.67;
     color: var(--desc-color);
+}
+
+.dots {
+    display: flex;
+    margin-top: 28px;
+    gap: 6px;
+}
+
+.dots .dot {
+    width: 6px;
+    height: 6px;
+    background: #634700;
+    border-radius: 50%;
+}
+
+.dot.dot--active {
+    cursor: default;
+    background-color: var(--secondary-color);
 }
 
 .word-break-all {
