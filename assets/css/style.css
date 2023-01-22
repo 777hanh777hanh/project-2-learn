@@ -1,5 +1,6 @@
 @import './../plugins/reset.css';
 @import './header.css';
+@import './hero.css';
 
 * {
     /* make size always right */
@@ -39,10 +40,14 @@ a {
     display: inline-block;
     font-weight: 600;
     min-width: 118px;
-    border-radius: 25px;
+    border-radius: 999px;
     font-size: 1.6rem;
     line-height: 50px;
     text-align: center;
     color: #ffffff;
     background: var(--primary-color);
+}
+
+.btn:hover {
+    opacity: 0.9;
 }

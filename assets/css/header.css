@@ -7,6 +7,7 @@ header.header {
 header.header.fixed {
     position: sticky;
     top: -24px;
+    z-index: 1;
 }
 
 .header .body {
@@ -38,7 +39,7 @@ header.header.fixed {
     color: var(--primary-color);
 }
 
-.header .navbar li a:hover::after,
+/* .header .navbar li a:hover::after, */
 .header .navbar li.active a::after {
     content: '';
     display: inline-block;
