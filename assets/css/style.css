@@ -1,6 +1,8 @@
 @import './../plugins/reset.css';
+@import './../plugins/line-clamp.css';
 @import './header.css';
 @import './hero.css';
+@import './popular.css';
 
 * {
     /* make size always right */
@@ -50,4 +52,32 @@ a {
 
 .btn:hover {
     opacity: 0.9;
+    cursor: pointer;
+}
+
+.heading {
+    font-family: 'Sen', sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: var(--primary-color);
+}
+
+.heading.lv1 {
+    font-size: 5.8rem;
+    line-height: 1.17;
+}
+
+.heading.lv2 {
+    font-size: 3.8rem;
+    line-height: 1.26;
+}
+
+.desc {
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: var(--desc-color);
+}
+
+.word-break-all {
+    white-space: break-all;
 }
